@@ -16,6 +16,7 @@ app = Flask(__name__)
 # Toggle between JSON, YAML, and XML for testing
 # path = "data/db.yml"
 # path = "data/db.xml"
+# Extra comment to re-run Travis
 path = "data/db.json"
 db = Database(path)
 
